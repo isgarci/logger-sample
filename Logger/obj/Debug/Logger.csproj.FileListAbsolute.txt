@@ -1,0 +1,5 @@
+/Users/macbookpro/Projects/LoggerModule/Logger/bin/Debug/Logger.dll
+/Users/macbookpro/Projects/LoggerModule/Logger/bin/Debug/Logger.pdb
+/Users/macbookpro/Projects/LoggerModule/Logger/obj/Debug/Logger.csproj.CoreCompileInputs.cache
+/Users/macbookpro/Projects/LoggerModule/Logger/obj/Debug/Logger.dll
+/Users/macbookpro/Projects/LoggerModule/Logger/obj/Debug/Logger.pdb

@@ -1,0 +1,16 @@
+/Users/macbookpro/Projects/LoggerModule/CustomLoggers/bin/Debug/CustomLoggers.dll
+/Users/macbookpro/Projects/LoggerModule/CustomLoggers/bin/Debug/CustomLoggers.pdb
+/Users/macbookpro/Projects/LoggerModule/CustomLoggers/bin/Debug/Logger.dll
+/Users/macbookpro/Projects/LoggerModule/CustomLoggers/bin/Debug/Serilog.dll
+/Users/macbookpro/Projects/LoggerModule/CustomLoggers/bin/Debug/Serilog.Sinks.Console.dll
+/Users/macbookpro/Projects/LoggerModule/CustomLoggers/bin/Debug/Serilog.Sinks.File.dll
+/Users/macbookpro/Projects/LoggerModule/CustomLoggers/bin/Debug/Logger.pdb
+/Users/macbookpro/Projects/LoggerModule/CustomLoggers/bin/Debug/Serilog.xml
+/Users/macbookpro/Projects/LoggerModule/CustomLoggers/bin/Debug/Serilog.Sinks.Console.xml
+/Users/macbookpro/Projects/LoggerModule/CustomLoggers/bin/Debug/Serilog.Sinks.File.pdb
+/Users/macbookpro/Projects/LoggerModule/CustomLoggers/bin/Debug/Serilog.Sinks.File.xml
+/Users/macbookpro/Projects/LoggerModule/CustomLoggers/obj/Debug/CustomLoggers.csprojAssemblyReference.cache
+/Users/macbookpro/Projects/LoggerModule/CustomLoggers/obj/Debug/CustomLoggers.csproj.CoreCompileInputs.cache
+/Users/macbookpro/Projects/LoggerModule/CustomLoggers/obj/Debug/CustomLoggers.csproj.CopyComplete
+/Users/macbookpro/Projects/LoggerModule/CustomLoggers/obj/Debug/CustomLoggers.dll
+/Users/macbookpro/Projects/LoggerModule/CustomLoggers/obj/Debug/CustomLoggers.pdb

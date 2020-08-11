@@ -1,0 +1,16 @@
+/Users/macbookpro/Projects/LoggerModule/BaseClient/bin/Debug/BaseClient.exe
+/Users/macbookpro/Projects/LoggerModule/BaseClient/bin/Debug/BaseClient.pdb
+/Users/macbookpro/Projects/LoggerModule/BaseClient/bin/Debug/CustomLoggers.dll
+/Users/macbookpro/Projects/LoggerModule/BaseClient/bin/Debug/Logger.dll
+/Users/macbookpro/Projects/LoggerModule/BaseClient/bin/Debug/Serilog.dll
+/Users/macbookpro/Projects/LoggerModule/BaseClient/bin/Debug/Serilog.Sinks.File.dll
+/Users/macbookpro/Projects/LoggerModule/BaseClient/bin/Debug/Logger.pdb
+/Users/macbookpro/Projects/LoggerModule/BaseClient/bin/Debug/CustomLoggers.pdb
+/Users/macbookpro/Projects/LoggerModule/BaseClient/bin/Debug/Serilog.xml
+/Users/macbookpro/Projects/LoggerModule/BaseClient/bin/Debug/Serilog.Sinks.File.pdb
+/Users/macbookpro/Projects/LoggerModule/BaseClient/bin/Debug/Serilog.Sinks.File.xml
+/Users/macbookpro/Projects/LoggerModule/BaseClient/obj/Debug/BaseClient.csprojAssemblyReference.cache
+/Users/macbookpro/Projects/LoggerModule/BaseClient/obj/Debug/BaseClient.csproj.CoreCompileInputs.cache
+/Users/macbookpro/Projects/LoggerModule/BaseClient/obj/Debug/BaseClient.csproj.CopyComplete
+/Users/macbookpro/Projects/LoggerModule/BaseClient/obj/Debug/BaseClient.exe
+/Users/macbookpro/Projects/LoggerModule/BaseClient/obj/Debug/BaseClient.pdb

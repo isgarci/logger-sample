@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\NUnit.3.12.0\build\NUnit.props" Condition="Exists('..\packages\NUnit.3.12.0\build\NUnit.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E56AA5A2-4BC6-4D70-9040-814A5A0D0637}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Tests</RootNamespace>
+    <AssemblyName>Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.3.12.0\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="TestCustomLogger.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="LogOutputSample\20200703 103015 555.log" />
+    <None Include="LogOutputSample\20200703 101600 926.log" />
+    <None Include="LogOutputSample\20200703 100455 177.log" />
+    <None Include="LogOutputSample\20200703 102938 410.log" />
+    <None Include="LogOutputSample\20200703 100433 763.log" />
+    <None Include="LogOutputSample\20200703 100536 334.log" />
+    <None Include="LogOutputSample\20200703 101600 657.log" />
+    <None Include="LogOutputSample\20200703 103211 111.log" />
+    <None Include="LogOutputSample\20200703 102938 138.log" />
+    <None Include="LogOutputSample\20200703 103015 822.log" />
+    <None Include="LogOutputSample\20200703 103211 261.log" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CustomLoggers\CustomLoggers.csproj">
+      <Project>{2E0024D7-11B8-4014-9B67-9CD924B6A9A0}</Project>
+      <Name>CustomLoggers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Logger\Logger.csproj">
+      <Project>{A46005C1-7052-4E84-89AE-8DD6045B24A4}</Project>
+      <Name>Logger</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
